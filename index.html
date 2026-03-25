@@ -172,6 +172,7 @@
       display: flex;
       align-items: center;
       justify-content: space-between;
+      gap: 40px;
     }
 
     .nav-logo {
@@ -228,8 +229,10 @@
 
     .nav-links {
       display: flex;
-      gap: 32px;
+      gap: 20px;
       list-style: none;
+      margin-left: 40px;
+      flex-shrink: 0;
     }
 
     .nav-links a {
@@ -2227,7 +2230,7 @@
       .nav-logo-text {
         font-size: 0.85rem;
       }
-      
+
       .nav-logo-icon {
         width: 38px;
         height: 48px;
@@ -2733,7 +2736,7 @@
         </div>
       </a>
       <ul class="nav-links">
-        <li><a href="#" class="active" style="color: var(--primary);">Home</a></li>
+        <li><a href="#" class="active">Home</a></li>
         <li><a href="#about">About</a></li>
         <li><a href="#courses">Courses</a></li>
         <li><a href="#mentoring">Training</a></li>
@@ -2811,10 +2814,10 @@
     <div class="container">
       <div style="margin-bottom: 50px;">
         <h1 class="hero-title reveal" style="margin-bottom: 10px;">
-          Mainframe Training
+          Mainframe + AI Training Academy
         </h1>
         <h3 style="font-size: 1.5rem; color: #64748b; font-weight: 600; margin-bottom: 0;">
-          A Complete Reference for Mainframe Programmer
+          A Complete Reference for Mainframe Programmers and AI Professionals
         </h3>
       </div>
 
@@ -2822,7 +2825,7 @@
         <!-- Mission & List -->
         <div class="hero-content">
           <p class="hero-sub reveal" style="color: #475569; font-size: 1.1rem; line-height: 1.6; margin-bottom: 30px;">
-            Our mission is to deliver completely free online mainframe tutorials and connecting every Mainframe
+            Our mission is to deliver quality batch and online mainframe trainings and connecting every Mainframe
             programmers across the globe in a single platform for Learning, Knowledge Sharing, Job opportunity and
             Discussion.
           </p>
@@ -2830,7 +2833,7 @@
           <ul style="list-style: none; padding: 0; display: flex; flex-direction: column; gap: 18px;">
             <li style="display: flex; gap: 12px; align-items: flex-start; font-size: 1rem; color: #475569;">
               <i class="fas fa-check" style="color: var(--primary); margin-top: 6px; font-size: 1.1rem;"></i>
-              <span>Founded by Mainframe Programmers.</span>
+              <span>Founded by Mainframe Programmers and industry specialist.</span>
             </li>
             <li style="display: flex; gap: 12px; align-items: flex-start; font-size: 1rem; color: #475569;">
               <i class="fas fa-check" style="color: var(--primary); margin-top: 6px; font-size: 1.1rem;"></i>
@@ -2850,26 +2853,36 @@
           </ul>
         </div>
         <div class="hero-visual-img reveal-right" style="width: 100%; max-width: 600px;">
-          <svg viewBox="0 0 800 600" fill="none" xmlns="http://www.w3.org/2000/svg" class="img-premium" style="width: 100%; height: auto;">
-            <rect width="800" height="600" rx="24" fill="#0F172A"/>
-            <rect x="20" y="20" width="760" height="560" rx="12" fill="#000000" stroke="#334155" stroke-width="2"/>
-            <text x="40" y="60" fill="#00FF00" font-family="monospace" font-size="20" font-weight="bold">ISPF PRIMARY OPTION MENU</text>
+          <svg viewBox="0 0 800 600" fill="none" xmlns="http://www.w3.org/2000/svg" class="img-premium"
+            style="width: 100%; height: auto;">
+            <rect width="800" height="600" rx="24" fill="#0F172A" />
+            <rect x="20" y="20" width="760" height="560" rx="12" fill="#000000" stroke="#334155" stroke-width="2" />
+            <text x="40" y="60" fill="#00FF00" font-family="monospace" font-size="20" font-weight="bold">ISPF PRIMARY
+              OPTION MENU</text>
             <text x="580" y="60" fill="#00FF00" font-family="monospace" font-size="14">USERID - ATSPROG</text>
-            <line x1="40" y1="80" x2="760" y2="80" stroke="#00FF00" stroke-width="1" stroke-dasharray="4 4"/>
+            <line x1="40" y1="80" x2="760" y2="80" stroke="#00FF00" stroke-width="1" stroke-dasharray="4 4" />
             <text x="40" y="120" fill="#FFFFFF" font-family="monospace" font-size="16">OPTION ===></text>
-            <line x1="155" y1="125" x2="310" y2="125" stroke="#00FF00" stroke-width="2"/>
-            <text x="40" y="160" fill="#00FF00" font-family="monospace" font-size="15">0  SETTINGS        - Terminal and user parameters</text>
-            <text x="40" y="190" fill="#00FF00" font-family="monospace" font-size="15">1  VIEW            - Display source data or listings</text>
-            <text x="40" y="220" fill="#00FF00" font-family="monospace" font-size="15">2  EDIT            - Create or change source data</text>
-            <text x="40" y="250" fill="#00FF00" font-family="monospace" font-size="15">3  UTILITIES       - Perform utility functions</text>
-            <text x="40" y="280" fill="#00FF00" font-family="monospace" font-size="15">4  FOREGROUND      - Interactive language processing</text>
-            <text x="40" y="310" fill="#00FF00" font-family="monospace" font-size="15">5  BATCH           - Submit job for processing</text>
-            <rect x="40" y="360" width="720" height="200" rx="8" fill="#1E293B"/>
-            <text x="60" y="390" fill="#6EE7B7" font-family="monospace" font-size="14">//ATSJOB1  JOB (ACCT),'TRAINING',CLASS=A</text>
-            <text x="60" y="420" fill="#6EE7B7" font-family="monospace" font-size="14">//STEP1    EXEC PGM=COBPROG</text>
+            <line x1="155" y1="125" x2="310" y2="125" stroke="#00FF00" stroke-width="2" />
+            <text x="40" y="160" fill="#00FF00" font-family="monospace" font-size="15">0 SETTINGS - Terminal and user
+              parameters</text>
+            <text x="40" y="190" fill="#00FF00" font-family="monospace" font-size="15">1 VIEW - Display source data or
+              listings</text>
+            <text x="40" y="220" fill="#00FF00" font-family="monospace" font-size="15">2 EDIT - Create or change source
+              data</text>
+            <text x="40" y="250" fill="#00FF00" font-family="monospace" font-size="15">3 UTILITIES - Perform utility
+              functions</text>
+            <text x="40" y="280" fill="#00FF00" font-family="monospace" font-size="15">4 FOREGROUND - Interactive
+              language processing</text>
+            <text x="40" y="310" fill="#00FF00" font-family="monospace" font-size="15">5 BATCH - Submit job for
+              processing</text>
+            <rect x="40" y="360" width="720" height="200" rx="8" fill="#1E293B" />
+            <text x="60" y="390" fill="#6EE7B7" font-family="monospace" font-size="14">//ATSJOB1 JOB
+              (ACCT),'TRAINING',CLASS=A</text>
+            <text x="60" y="420" fill="#6EE7B7" font-family="monospace" font-size="14">//STEP1 EXEC PGM=COBPROG</text>
             <text x="60" y="450" fill="#6EE7B7" font-family="monospace" font-size="14">//SYSPRINT DD SYSOUT=*</text>
-            <text x="60" y="480" fill="#6EE7B7" font-family="monospace" font-size="14">//SYSIN    DD *</text>
-            <text x="80" y="510" fill="#FB7185" font-family="monospace" font-size="14">   DISPLAY 'AMRUTHA SOLUTIONS - LIVE'</text>
+            <text x="60" y="480" fill="#6EE7B7" font-family="monospace" font-size="14">//SYSIN DD *</text>
+            <text x="80" y="510" fill="#FB7185" font-family="monospace" font-size="14"> DISPLAY 'AMRUTHA SOLUTIONS -
+              LIVE'</text>
             <text x="60" y="540" fill="#6EE7B7" font-family="monospace" font-size="14">/*</text>
             <rect x="155" y="110" width="12" height="24" fill="#00FF00">
               <animate attributeName="opacity" values="1;0;1" dur="1.2s" repeatCount="indefinite" />
@@ -2936,7 +2949,7 @@
             <div style="font-size:.85rem;color:var(--text-muted);margin-top:4px">Annual transaction value processed by
               Mainframes in India's banking sector</div>
             <div style="margin-top:12px;display:flex;align-items:center;gap:8px;font-size:.82rem;color:#86efac"><i
-                class="fas fa-arrow-trend-up"></i> 40,000+ Mainframe jobs open in India right now</div>
+                class="fas fa-arrow-trend-up"></i> 30,000+ Mainframe jobs open in India right now</div>
           </div>
         </div>
       </div>
@@ -3021,8 +3034,8 @@
           <div class="section-tag"><i class="fas fa-graduation-cap"></i> Personalized Mentoring</div>
           <h2 class="section-title">One-to-One <span class="grad">Mentoring & Support</span></h2>
           <p style="color:var(--text-muted);line-height:1.7;margin-bottom:24px">
-            We believe in personalized attention. Every student at ATS is assigned a dedicated industry mentor who 
-            guides them from absolute basic to professional certification. Our one-to-one sessions ensure your 
+            We believe in personalized attention. Every student at ATS is assigned a dedicated industry mentor who
+            guides them from absolute basic to professional certification. Our one-to-one sessions ensure your
             doubts are cleared instantly and your career path is perfectly aligned with industry needs.
           </p>
           <div class="about-points">
@@ -3030,7 +3043,7 @@
               <div class="point-icon"><i class="fas fa-user-friends"></i></div>
               <div>
                 <div class="point-title">Personal Doubt Clearing</div>
-                <div class="point-desc">Never get stuck. Our mentors are available for individual sessions to resolve 
+                <div class="point-desc">Never get stuck. Our mentors are available for individual sessions to resolve
                   complex technical blockers.</div>
               </div>
             </div>
@@ -3038,28 +3051,29 @@
               <div class="point-icon"><i class="fas fa-bullseye"></i></div>
               <div>
                 <div class="point-title">Career Roadmap</div>
-                <div class="point-desc">Get a personalized learning and placement strategy based on your academic 
+                <div class="point-desc">Get a personalized learning and placement strategy based on your academic
                   background and career aspirations.</div>
               </div>
             </div>
           </div>
         </div>
         <div class="reveal-right">
-          <img src="https://images.unsplash.com/photo-1522071820081-009f0129c71c?auto=format&fit=crop&q=80&w=800" 
-               alt="One-to-One Mentoring Session" class="img-premium">
+          <img src="https://images.unsplash.com/photo-1522071820081-009f0129c71c?auto=format&fit=crop&q=80&w=800"
+            alt="One-to-One Mentoring Session" class="img-premium">
         </div>
       </div>
-      
+
       <div class="about-grid" style="margin-top: 100px;">
         <div class="reveal-right">
-          <img src="https://images.unsplash.com/photo-1524178232363-1fb2b075b655?auto=format&fit=crop&q=80&w=800" 
-               alt="Modern IT Training Classroom" class="img-premium">
+          <img src="https://images.unsplash.com/photo-1524178232363-1fb2b075b655?auto=format&fit=crop&q=80&w=800"
+            alt="Modern IT Training Classroom" class="img-premium">
         </div>
         <div class="reveal-left">
           <div class="section-tag"><i class="fas fa-users"></i> Classroom Experience</div>
           <h2 class="section-title">Real-World <span class="grad">Classroom Training</span></h2>
           <p style="color:var(--text-muted);line-height:1.7;margin-bottom:24px">
-            Experience an immersive learning environment where theory meets practice. Our physical and virtual classrooms 
+            Experience an immersive learning environment where theory meets practice. Our physical and virtual
+            classrooms
             are equipped with real IBM Z/OS emulator access, enabling you to run real Mainframe jobs from day one.
           </p>
           <div class="about-points">
@@ -3067,7 +3081,7 @@
               <div class="point-icon"><i class="fas fa-laptop-code"></i></div>
               <div>
                 <div class="point-title">Hands-on Lab Sessions</div>
-                <div class="point-desc">70% of our course is practical. Spend your time coding COBOL, writing JCL, and 
+                <div class="point-desc">70% of our course is practical. Spend your time coding COBOL, writing JCL, and
                   managing DB2 databases.</div>
               </div>
             </div>
@@ -3075,7 +3089,7 @@
               <div class="point-icon"><i class="fas fa-project-diagram"></i></div>
               <div>
                 <div class="point-title">Group Projects</div>
-                <div class="point-desc">Collaborate with peers on capstone projects that simulate real banking migration 
+                <div class="point-desc">Collaborate with peers on capstone projects that simulate real banking migration
                   and modernization tasks.</div>
               </div>
             </div>
